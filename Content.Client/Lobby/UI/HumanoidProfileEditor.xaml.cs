@@ -1767,6 +1767,22 @@ namespace Content.Client.Lobby.UI
                         Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
                         break;
                     }
+                // Forge-Change-Start wega ariral
+                case HumanoidSkinColor.AriralPale:
+                {
+                    if (!Skin.Visible)
+                    {
+                        Skin.Visible = true;
+                        RgbSkinColorContainer.Visible = false;
+                    }
+
+                    var color = SkinColor.AriralColor((int)Skin.Value);
+
+                    Markings.CurrentSkinColor = color;
+                    Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                    break;
+                }
+                // Forge-Change-End wega ariral
                 // Goobstation Section End - Tajaran
                 case HumanoidSkinColor.Hues:
                 {
@@ -2176,6 +2192,20 @@ namespace Content.Client.Lobby.UI
 
                         break;
                     }
+                // Forge-Change-Start wega ariral
+                case HumanoidSkinColor.AriralPale:
+                {
+                    if (!Skin.Visible)
+                    {
+                        Skin.Visible = true;
+                        RgbSkinColorContainer.Visible = false;
+                    }
+
+                    Skin.Value = SkinColor.AriralSkinToneFromColor(Profile.Appearance.SkinColor);
+
+                    break;
+                }
+                // Forge-Change-End wega ariral
                 // Goobstation Section Start - Tajaran
                 case HumanoidSkinColor.AnimalFur: // Goobstation - Tajaran
                     {

@@ -120,6 +120,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             HumanoidSkinColor.TintedHues => Humanoid.SkinColor.TintedHues(speciesPrototype.DefaultSkinTone),
             HumanoidSkinColor.VoxFeathers => Humanoid.SkinColor.ClosestVoxColor(speciesPrototype.DefaultSkinTone),
             HumanoidSkinColor.AnimalFur => Humanoid.SkinColor.ClosestAnimalFurColor(speciesPrototype.DefaultSkinTone), // Goobstation - Tajaran
+            HumanoidSkinColor.AriralPale => Humanoid.SkinColor.AriralColor(speciesPrototype.DefaultHumanSkinTone), // Forge-Change wega ariral
             _ => Humanoid.SkinColor.ValidHumanSkinTone,
         };
 
@@ -190,6 +191,11 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             case HumanoidSkinColor.AnimalFur:
                 newSkinColor = Humanoid.SkinColor.ProportionalAnimalFurColor(newSkinColor); // Goobstation - Tajaran
                 break;
+            // Forge-Change-Start wega ariral
+            case HumanoidSkinColor.AriralPale:
+                newSkinColor = Humanoid.SkinColor.AriralColor(random.Next(0, 101));
+                break;
+            // Forge-Change-End wega ariral
         }
 
         var newHeight = random.NextFloat(0.95f, 1.05f); // Random height between 95% and 105% of normal
