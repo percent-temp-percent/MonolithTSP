@@ -9,8 +9,6 @@
   skinColoration: AriralPale
   maleFirstNames: NamesAriralFirst
   femaleFirstNames: NamesAriralFirst
-  maleLastNames: NamesAriralLast
-  femaleLastNames: NamesAriralLast
 
 - type: speciesBaseSprites
   id: MobAriralSprites
