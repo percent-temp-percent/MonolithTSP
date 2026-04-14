@@ -59,7 +59,7 @@
       prob: 0.05
 
 - type: entity
-  id: BoxFoodPizzaSyndiDonkpocketSyndi
+  id: BoxFoodPizzaDonkpocketSyndi
   name: коробка пиццы донк-покет
   parent: FoodBoxPizzaSyndi
   components:
@@ -73,7 +73,7 @@
       prob: 0.05
 
 - type: entity
-  id: BoxFoodSyndiPizzaArnoldSyndi
+  id: BoxFoodPizzaArnoldSyndi
   name: коробка пиццы Арнольд
   parent: FoodBoxPizzaSyndi
   components:
@@ -87,7 +87,7 @@
       prob: 0.05
 
 - type: entity
-  id: BoxFoodSyndiPizzaSassysageSyndi
+  id: BoxFoodPizzaSassysageSyndi
   name: коробка дерзкалбасной пиццы
   parent: FoodBoxPizzaSyndi
   components:
