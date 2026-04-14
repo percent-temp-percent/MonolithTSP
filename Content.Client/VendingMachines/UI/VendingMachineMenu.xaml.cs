@@ -82,7 +82,12 @@ namespace Content.Client.VendingMachines.UI
         /// Populates the list of available items on the vending machine interface
         /// and sets icons based on their prototypes
         /// </summary>
-        public void Populate(List<VendingMachineInventoryEntry> inventory, float priceModifier, int balance, int? cashSlotBalance, bool requiresCash) // Frontier: add balance, cashSlotBalance
+        public void Populate(List<VendingMachineInventoryEntry> inventory,
+            bool enabled, // Forge-Change
+            float priceModifier,
+            int balance,
+            int? cashSlotBalance,
+            bool requiresCash) // Frontier: add balance, cashSlotBalance
         {
             UpdateBalance(balance); // Frontier
             UpdateCashSlotBalance(cashSlotBalance); // Frontier
