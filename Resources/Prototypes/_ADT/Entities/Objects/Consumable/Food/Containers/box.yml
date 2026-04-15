@@ -21,6 +21,7 @@
       - Utensil
       tags:
       - Pizza
+      - DrinkCan
   - type: Item
     sprite: _ADT/Objects/Consumable/Food/Baked/pizza.rsi
     heldPrefix: box
