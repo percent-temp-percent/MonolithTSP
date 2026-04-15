@@ -16,7 +16,7 @@
     BoxFoodPizzaDonkpocket: 1
     BoxFoodPizzaArnold: 1
     BoxFoodPizzaSassysage: 1
-    BoxFoodPizzaWorldpeas: 1
+    BoxFoodPizzaFirecracker: 1
 
 - type: vendingMachineInventory
   id: SnackDonkSyndiPack
@@ -30,7 +30,6 @@
     FoodBoxDonkpocketDink: 4294967295 # Infinite
     FoodBoxDonkpocketStonk: 4294967295 # Infinite
     FoodBoxDonkpocketCarp: 4294967295 # Infinite
-    FoodBoxDonkpocketMoth: 4294967295 # Infinite
     FoodBoxNugget: 4294967295 # Infinite
     FoodPSB: 4294967295 # Infinite
     DrinkColaCan: 4294967295 # Infinite

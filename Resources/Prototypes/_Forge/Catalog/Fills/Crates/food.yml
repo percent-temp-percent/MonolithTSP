@@ -44,14 +44,14 @@
       prob: 0.05
 
 - type: entity
-  id: BoxFoodPizzaWorldpeas
-  name: коробка пиццы "Мировая"
+  id: BoxFoodPizzaFirecracker
+  name: коробка пиццы "Фейерверк"
   description: Коробка для пиццы или других вещей.
   parent: FoodBoxPizza
   components:
   - type: StorageFill
     contents:
-    - id: FoodPizzaWorldpeas
+    - id: FoodMothPizzaFirecracker
       amount: 1
     - id: KnifePlastic
       prob: 0.95
