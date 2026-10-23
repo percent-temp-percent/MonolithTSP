@@ -1,0 +1,219 @@
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoBlackGreen
+  name: кимоно
+  suffix: Black Green, large
+  description: Традиционное кимоно с черно-зеленым узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_blgr.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_blgr.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoBlackGreen]
+  id: ClothingOuterCoatKimonoBlackGreenOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoBlue
+  name: кимоно
+  suffix: Blue, large
+  description: Традиционное кимоно с синим узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_blu.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_blu.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoBlue]
+  id: ClothingOuterCoatKimonoBlueOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoFlowerBlack
+  name: кимоно
+  suffix: Flower Black, large
+  description: Традиционное кимоно с чёрным цветочным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowbl.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowbl.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoFlowerBlack]
+  id: ClothingOuterCoatKimonoFlowerBlackOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoFlowerBlue
+  name: кимоно
+  suffix: Flower Blue, large
+  description: Традиционное кимоно с синим цветочным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowblu.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowblu.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoFlowerBlue]
+  id: ClothingOuterCoatKimonoFlowerBlueOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoFlowerRed
+  name: кимоно
+  suffix: Flower Red, large
+  description: Традиционное кимоно с красным цветочным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowred.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowred.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoFlowerRed]
+  id: ClothingOuterCoatKimonoFlowerRedOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoFlowerWhite
+  name: кимоно
+  suffix: Flower White, large
+  description: Традиционное кимоно с белым цветочным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowwh.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_flowwh.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoFlowerWhite]
+  id: ClothingOuterCoatKimonoFlowerWhiteOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoRed
+  name: кимоно
+  suffix: Red, large
+  description: Традиционное кимоно с красным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_red.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_red.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoRed]
+  id: ClothingOuterCoatKimonoRedOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoRedBlack
+  name: кимоно
+  suffix: Red Black, large
+  description: Традиционное кимоно с красно-чёрным узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_redbl.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_redbl.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoRedBlack]
+  id: ClothingOuterCoatKimonoRedBlackOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoStripes
+  name: кимоно
+  suffix: Stripes, large
+  description: Традиционное кимоно с полосатым узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_stripes.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_stripes.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoStripes]
+  id: ClothingOuterCoatKimonoStripesOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatKimonoWhite
+  name: кимоно
+  suffix: White, large
+  description: Традиционное кимоно с белым узором.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_wh.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Coats/Kimono/kimono_wh.rsi
+  - type: Tag
+    tags:
+      - NudeBottom
+      - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatKimonoWhite]
+  id: ClothingOuterCoatKimonoWhiteOpen
+  suffix: Open, large
+  categories: [ HideSpawnMenu ]

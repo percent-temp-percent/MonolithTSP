@@ -1,0 +1,73 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressXeno
+  name: платье ксено
+  description: Элегантность и ужас в одном флаконе.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/xeno_dress.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/xeno_dress.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressMaidLong
+  name: длинное платье горничной
+  description: Для ценителей классических сарафанов и практичности.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/maid_long.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/maid_long.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressSilk
+  name: шёлковое платье
+  description: Дорогая ткань и аккуратный крой. Выглядит уместно даже на приёме.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/silk_dress.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/silk_dress.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressSuccubusBlack
+  name: чёрное платье суккуба
+  description: Это платье источает адскую магию... крылья в подарок!
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/succubus_black.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/succubus_black.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterWingsBlack
+    requiredSlot: innerClothing
+    slot: outerClothing
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressSuccubusWhite
+  name: белое платье суккуба
+  description: Это платье источает адскую магию... крылья в подарок!
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/succubus_white.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/succubus_white.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterWingsWhite
+    requiredSlot: innerClothing
+    slot: outerClothing
+
+- type: entity
+  parent: ClothingUniformBase
+  id: UniformDressTango
+  name: платье для танго
+  description: Почувствуй ритм, кружась под "La cumparsita"!
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/tango_dress.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/Uniforms/Dresses/tango_dress.rsi

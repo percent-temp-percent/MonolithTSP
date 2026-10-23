@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterWingsBlack
+  name: чёрные крылья
+  description: Крылья к чёрному платью суккуба.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Wings/succubus_dress_black.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Wings/succubus_dress_black.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterWingsWhite
+  name: белые крылья
+  description: Крылья к белому платью суккуба.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Clothing/OuterClothing/Wings/succubus_dress_white.rsi
+  - type: Clothing
+    sprite: _Sunrise/Clothing/OuterClothing/Wings/succubus_dress_white.rsi

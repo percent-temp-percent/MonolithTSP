@@ -1,0 +1,55 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBellCollarBase
+  abstract: true
+  name: чокер с колокольчиком
+  description: Милый чокер с колокольчиком.
+  components:
+  - type: EmitsSoundOnMove
+    soundCollection:
+      collection: FootstepJester
+      params:
+        volume: -8
+
+- type: entity
+  parent: ClothingNeckBellCollarBase
+  id: ClothingNeckBellCollarPink
+  components:
+  - type: Sprite
+    sprite: _Lust/NeckAccessories/collar5.rsi
+    scale: 0.75, 0.75
+  - type: Clothing
+    sprite: _Lust/NeckAccessories/collar5.rsi
+
+- type: entity
+  parent: ClothingNeckBellCollarBase
+  id: ClothingNeckBellCollarYellow
+  components:
+  - type: Sprite
+    sprite: _Lust/NeckAccessories/collar6.rsi
+    scale: 0.75, 0.75
+  - type: Clothing
+    sprite: _Lust/NeckAccessories/collar6.rsi
+
+- type: entity
+  parent: ClothingNeckBellCollarBase
+  id: ClothingNeckBellCollarPlain
+  components:
+  - type: Sprite
+    sprite: _Lust/NeckAccessories/collar7.rsi
+    scale: 0.75, 0.75
+  - type: Clothing
+    sprite: _Lust/NeckAccessories/collar7.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRibbon
+  name: лента
+  description: Милая красная лента.
+  components:
+  - type: Sprite
+    sprite: _Lust/NeckAccessories/ribbon.rsi
+    scale: 0.75, 0.75
+  - type: Clothing
+    sprite: _Lust/NeckAccessories/ribbon.rsi
+    quickEquip: true

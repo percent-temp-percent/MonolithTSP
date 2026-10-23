@@ -1,0 +1,35 @@
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformWeddingDressMagnificent
+  name: пышное свадебное платье
+  description: Платье, в котором невеста - центр вселенной.
+  components:
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdressmagnificent.rsi
+    - type: Clothing
+      slots: [outerClothing]
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdressmagnificent.rsi
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformWeddingDressBelt
+  name: свадебное платье с портупеей
+  description: Изысканный вызов традициям.
+  components:
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdressbelt.rsi
+    - type: Clothing
+      slots: [outerClothing]
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdressbelt.rsi
+
+- type: entity
+  parent: UnsensoredClothingUniformBase
+  id: ClothingUniformWeddingDressSplit
+  name: свадебное платье с вырезом
+  description: Свадьба с каплей эпатажа.
+  components:
+    - type: Sprite
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdresssplit.rsi
+    - type: Clothing
+      slots: [outerClothing]
+      sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/weddingdresssplit.rsi
